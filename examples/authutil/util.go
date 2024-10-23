@@ -24,7 +24,7 @@ import (
 	"github.com/luikyv/go-oidc/pkg/goidc"
 )
 
-const (
+var (
 	Port             string = ":8445"
 	Issuer           string = "https://auth.localhost" + Port
 	MTLSHost         string = "https://matls-auth.localhost" + Port
